@@ -6,6 +6,7 @@
 body {
   font-size: 16px;
 }
+
 #section1 {
   display: flex;
   align-items: center;
@@ -18,9 +19,12 @@ body {
   margin: 0 auto;
 }
 .section1__h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 100;
   margin-bottom: 30px;
+}
+.section1__span {
+  font-size: 2rem;
 }
 
 .sticky-container__header {
@@ -31,17 +35,18 @@ body {
   margin-bottom: -100px;
   top: 0;
   color: #fff;
-  padding: 20px 30px;
+  padding: 20px 20px;
   background-color: #2e2e2e;
 }
 .sticky-container__nav {
-  padding: 20px 0px 20px 840px;
+  padding: 20px 0px 20px 570px;
 }
 .sticky-container__nav a {
-  padding-right: 50px;
+  font-family: "Work Sans", sans-serif;
+  padding-right: 100px;
   text-decoration: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 .section__header__burger-menu {
@@ -58,14 +63,15 @@ body {
   display: none;
 }
 .section2__nav a {
-  padding-right: 50px;
+  font-family: "Work Sans", sans-serif;
+  padding-right: 40px;
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
 }
 .logo {
-  width: 60px;
+  width: 90px;
 }
 .section2__main {
   display: flex;
@@ -87,6 +93,7 @@ body {
   padding: 0 30px 0 0;
 }
 .section2__h2 {
+  font-size: 2rem;
   margin-bottom: 30px;
 }
 .section2__p {
@@ -99,7 +106,10 @@ body {
   align-items: center;
   width: 32%;
   gap: 20px;
-  margin: 40px auto;
+  margin: 150px auto 60px auto;
+}
+.section3__h2 {
+  font-size: 2rem;
 }
 .section3_p {
   font-size: 1.2rem;
@@ -120,8 +130,8 @@ body {
 .section3__video-box {
   display: flex;
   justify-content: center;
-  width: 40%;
-  margin: 80px auto;
+  width: 35%;
+  margin: 80px auto 130px auto;
 }
 #section4-footer {
   display: flex;
@@ -162,9 +172,10 @@ body {
 }
 .input-container input:nth-of-type(4) {
   width: 20%;
+  margin-top: 20px;
 }
 footer {
-  background-color: #000;
+  background-color: #1d2c2f;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -532,7 +543,7 @@ footer a {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    background-color: #000;
+    background-color: #1d2c2f;
     color: #fff;
     padding: 10px 40px;
     gap: 8px;
